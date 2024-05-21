@@ -1,0 +1,64 @@
+.box{
+    background-color: rgb(44, 42, 42);
+    color: white;
+    padding-top: 4vh;
+    padding-bottom: 4vw;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+hr{
+    width: 7vw;
+   margin-left: 10px;
+    height: 1px;
+    color: white;
+    margin-top:0 ;
+}
+
+.mainbox{
+    display: flex;
+   gap:5px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.childbox{
+    min-height: 250px;
+    width: 270px;
+    background-color: #3461eb;
+    color: white;
+    text-align: center;
+   
+}
+.childbox h6{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.childbox p{
+    text-align: start;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 3vh;
+    color: #3461eb;
+    
+}
+
+.form{
+    background-color:rgb(236, 231, 231) ;
+     margin-top: 2%;
+     color:#3461eb;
+    
+}
+
+.formItems{
+    background-color: #3461eb;
+    color: white;
+    max-width: 50%;
+}
+label{
+    font-weight: bold;
+}
